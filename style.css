@@ -2,6 +2,13 @@
 
 @import "https://kit.fontawesome.com/b28bb51326.js";
 
+.bg {
+background-image:url("https://i.imgur.com/qcD7Uxj.jpeg");
+height:100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
 body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -44,9 +51,6 @@ input::-moz-focus-inner {
   border: 0;
 }
 
-bo {
-  outline: none;
-}
 
 img {
   max-width: 100%;
@@ -114,7 +118,7 @@ i.material-icons {
 
 .sidenav {
   height: 100%;
-  width: auto;
+  width: 350px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -123,6 +127,7 @@ i.material-icons {
   overflow-x: hidden;
   padding-top: 20px;
   text-align:left;
+  opacity:0.9;
 }
 
 .sidenav a {
