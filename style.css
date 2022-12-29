@@ -94,12 +94,17 @@
 body,
 html {
   height: 100%;
+  width:auto;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   font-size: 20px;
   overflow: auto;
+  background: #fafafa; 
+  margin-left:500px;
+  padding:16px;
+
   background: #fafafa;
   background-image: url("https://i.imgur.com/qcD7Uxj.jpeg");
   margin: 0;
@@ -125,6 +130,13 @@ li {
 }
 
 a {
+  outline: none;
+  text-decoration: none;
+}
+
+ .profilephoto {
+  border: 5px solid #008080;
+  border-radius: 90%;
   border: 0;
   outline: none;
   text-decoration: none;
@@ -132,6 +144,13 @@ a {
 
 input::-moz-focus-inner {
   border: 0;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  border:5px solid #008080;
 }
 
 .profile-photo {
@@ -247,6 +266,7 @@ webkit-scrollbar-thumb {
   font-size: 18px;
 }
 
+
 body {
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -338,7 +358,8 @@ t-right {
 }
 
 .main-content {
-  margin-left: 200px;
+  margin-left: 400px;
+  margin-right:400px;
   padding: 1px 16px;
   height: auto;
   background-color: #fff;
@@ -395,6 +416,13 @@ div.content {
 }
 
 .role {
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: #222222;
+
   font-size: 18px;
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
