@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import "https://kit.fontawesome.com/b28bb51326.js";
 
-{box-sizing: border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -117,6 +116,10 @@ label {
   margin: 0;
 }
 
+.envelope {
+  margin-left:50px;
+
+}
 ul,
 li,
 ol {
@@ -127,6 +130,7 @@ ol {
 
 li {
   list-style: none;
+  margin-left:20px;
 }
 
 a {
@@ -156,7 +160,6 @@ img {
 .profile-photo {
   max-width: 100%;
   height: auto;
-  vertical-align: center;
   border: 5px solid #008080;
   border-radius: 90%;
   padding-left: 5px;
