@@ -15,7 +15,12 @@ body {
   padding: 0;
 }
 		
-
+.bg{
+	background-image: url ("https://i.imgur.com/qcD7Uxj.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 label {
   padding: 0;
   margin: 0;
@@ -42,10 +47,6 @@ img {
 
 input::-moz-focus-inner {
   border: 0;
-}
-
-bo {
-  outline: none;
 }
 
 img {
