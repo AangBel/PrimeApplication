@@ -81,7 +81,7 @@
 }
 
 
-background-photo {
+/*background-photo {
   background-image: linear-gradient (rgba (0, 0, 0, 0.5), rgba (0, 0, 0, 0.5)),
     url("https://i.imgur.com/qcD7Uxj.jpeg");
   height: 50%;
@@ -89,7 +89,7 @@ background-photo {
   background-repeat: no-repeat;
   background-size: center;
   position: relative;
-}
+}*/
 
 body,
 html {
