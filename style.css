@@ -232,7 +232,8 @@ t-right{
 }
 
 .main-content {
-  margin-left: 200px;
+  margin-left: 400px;
+  margin-right:400px;
   padding: 1px 16px;
   height: 1000px;
   background-color: #fff;
