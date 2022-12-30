@@ -276,6 +276,11 @@ webkit-scrollbar-thumb {
   opacity: 0.9;
 }
 
+.sidenav,
+.main-content {
+  position: relative;
+}
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: underline;
