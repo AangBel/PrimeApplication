@@ -381,9 +381,12 @@ t-right {
   position: relative;
 
 }
+/*
 .mySlides {
   display: none;
 }
+*/
+
 .cursor {
   cursor: pointer;
 }
