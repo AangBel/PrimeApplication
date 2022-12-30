@@ -128,7 +128,8 @@ html {
   color: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   font-size: 20px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   background: #fafafa; 
   margin-left:500px;
   padding:16px;
