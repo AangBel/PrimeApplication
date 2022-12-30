@@ -279,6 +279,7 @@ webkit-scrollbar-thumb {
 .sidenav,
 .main-content {
   position: absolute;
+  display: flex;
 }
 
 .sidenav a {
