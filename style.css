@@ -146,10 +146,10 @@ label {
   margin: 0;
 }
 
-.envelope {
+i.fa.fa-envelope {
   margin-left:50px;
-
 }
+
 ul,
 li,
 ol {
