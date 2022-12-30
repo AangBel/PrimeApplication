@@ -398,10 +398,11 @@ t-right {
 
 .main-content {
   margin-left: 400px;
-  margin-right:400px;
-  padding: 1px 16px;
+  margin-right:200px;
+  padding: 16px 16px;
   height: auto;
   background-color: #fff;
+  opacity: 0.9;
 }
 
 .sidebar a {
