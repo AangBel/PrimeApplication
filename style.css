@@ -265,7 +265,7 @@ webkit-scrollbar-thumb {
 
 .hero-image {
   background-image: url(https://i.imgur.com/0pbAA7s.png);
-  width: 50vw;
+    width: 50vw;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
