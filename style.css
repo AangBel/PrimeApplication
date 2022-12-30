@@ -413,6 +413,7 @@ t-right {
   height: auto;
   background-color: #fff;
   opacity: 0.9;
+  position: relative;
 }
 
 .sidebar a {
