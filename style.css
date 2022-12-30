@@ -278,7 +278,7 @@ webkit-scrollbar-thumb {
 
 .sidenav,
 .main-content {
-  position: justify;
+  position: absolute;
 }
 
 .sidenav a {
