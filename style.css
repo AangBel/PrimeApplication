@@ -133,7 +133,6 @@ html {
   background: #fafafa; 
   margin-left:500px;
   padding:16px;
-
   background: #fafafa;
   background-image: url("https://i.imgur.com/qcD7Uxj.jpeg");
   background-repeat: no-repeat;
@@ -265,7 +264,7 @@ webkit-scrollbar-thumb {
 
 .hero-image {
   background-image: url(https://i.imgur.com/0pbAA7s.png);
-    width: 50vw;
+  width: 50vw;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,8 +273,7 @@ webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center
-  ;
+  text-align: center;
   }
 
   .hero-text {
