@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "https://kit.fontawesome.com/b28bb51326.js";
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -80,7 +80,7 @@
   clear: both;
 }
 .column {
-  float:left;
+  float: left;
   width: 16.66%;
 }
 
@@ -100,13 +100,17 @@
 }
 
 @keyframes fade {
-  from {opacity: 0.4};
-  to {opacity: 1};
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .campaign {
-  width:50%;
-  height:50%;
+  width: 50%;
+  height: 50%;
 }
 
 /*background-photo {
@@ -122,7 +126,7 @@
 body,
 html {
   height: 100%;
-  width:auto;
+  width: auto;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
@@ -130,9 +134,9 @@ html {
   font-size: 20px;
   overflow-y: auto;
   overflow-x: hidden;
-  background: #fafafa; 
-  margin-left:500px;
-  padding:16px;
+  background: #fafafa;
+  margin-left: 500px;
+  padding: 16px;
 
   background: #fafafa;
   background-image: url("https://i.imgur.com/qcD7Uxj.jpeg");
@@ -148,7 +152,7 @@ label {
 }
 
 i.fa.fa-envelope {
-  margin-left:50px;
+  margin-left: 50px;
 }
 
 ul,
@@ -161,7 +165,7 @@ ol {
 
 li {
   list-style: none;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 a {
@@ -169,7 +173,7 @@ a {
   text-decoration: none;
 }
 
- .profilephoto {
+.profilephoto {
   border: 5px solid #008080;
   border-radius: 90%;
   border: 0;
@@ -181,11 +185,10 @@ input::-moz-focus-inner {
   border: 0;
 }
 
-
 img {
   max-width: 100%;
   height: auto;
-  border:5px solid #008080;
+  border: 5px solid #008080;
 }
 
 .profile-photo {
@@ -262,7 +265,6 @@ webkit-scrollbar-thumb {
   background-color: #008080;
 }
 
-
 .hero-image {
   background-image: url(https://i.imgur.com/0pbAA7s.png);
   width: 99vw;
@@ -276,7 +278,7 @@ webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   text-align: center;
-  }
+}
 /*
   .hero-text {
     text-align: center;
@@ -299,10 +301,22 @@ webkit-scrollbar-thumb {
   color: white;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+.php {
+  width: 60%;
+  background-color: #808080;
+}
 
 .sidenav {
   height: 100%;
@@ -322,7 +336,6 @@ webkit-scrollbar-thumb {
 .sidenav,
 .main-content {
   position: absolute;
-  
 }
 
 .sidenav a {
@@ -347,7 +360,6 @@ webkit-scrollbar-thumb {
 .sidenav a {
   font-size: 18px;
 }
-
 
 body {
   background-color: #fff;
@@ -428,7 +440,6 @@ t-right {
   display: block;
   flex-direction: row;
   position: relative;
-
 }
 /*
 .mySlides {
@@ -451,7 +462,7 @@ t-right {
 
 .main-content {
   margin-left: 400px;
-  margin-right:200px;
+  margin-right: 200px;
   padding: 16px 16px;
   height: auto;
   background-color: #fff;
@@ -510,12 +521,11 @@ div.content {
 }
 
 .role {
-
-    font-size: 18px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
-    color: #222222;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  color: #222222;
 
   font-size: 18px;
   font-weight: normal;
