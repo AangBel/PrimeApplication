@@ -28,6 +28,52 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*---------------SIDENAV Start--------------------*/
+.sidenav {
+        height: 100%;
+        width: 350px;
+        min-width: 350px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #008080;
+        overflow-x: hidden;
+        padding-top: 20px;
+        text-align: left;
+        opacity: 0.9;
+    }
+    
+.sidenav,
+.main-content {
+        position: absolute;
+    }
+    
+.sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: underline;
+        font-size: 30px;
+        color: #f1f1f1;
+        display: block;
+}
+    
+.sidenav a:hover {
+        color: #818181;
+    }
+
+@media screen and (max-height: 450px) {
+    }
+    
+.sidenav {
+        padding-top: 15px;
+}
+
+.sidenav a {
+        font-size: 18px;
+    }
+
+/*---------------SIDENAV END--------------------*/
 .container {
     position: relative;
     width: 100%;
@@ -114,7 +160,42 @@
     .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
+::-webkit-scrollbar {
+    width: 15px;
+}
 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #008080;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+        background: #008080;
+    }
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #008080;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+        background: #008080;
+    }
 
 /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
